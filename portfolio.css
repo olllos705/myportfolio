@@ -1,0 +1,352 @@
+
+  *{  
+    padding:0;
+    margin:o;
+}
+.hero{
+    height: 100vh;
+    width:100%;
+    background-image: url('img/portfolio1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: white;
+    margin:20px 0px 20px 0px;
+    font-size: 75px;
+}
+    .logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+span{
+    color: sienna;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.btn{
+    background-color: sienna;
+    color:white;
+ text-decoration: none;
+ border: 2px solid transparent;
+ font-weight: bold;
+ padding: 10px 25px;
+ border-radius: 30px;
+}
+
+nav{
+    /*background color*/
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 45px;
+padding-left: 15px;
+padding-bottom: 15px;
+}
+
+.content{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+}
+#h3{
+    color: brown;
+ letter-spacing: 2px;
+ font-size: 20px;
+}
+.newsletter form{
+    width: 380px;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display:inline-block;
+    width:61%;
+    padding:14px 130px 14px 15px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 30px;
+}
+    .newsletter form input:last-child{
+        background: blue;
+        position: absolute;
+        display: inline;
+        outline: none;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 30px;
+        color: white;
+        top:6px;
+        right:6px;
+    }
+/*about*/
+.about{
+    width:100%;
+    padding:100px 0px;
+    background-color:#191919;
+}
+.about.main img{
+    height:auto;
+    width:430px;
+}
+.about text{
+width:550px;
+}
+.main{
+    width:1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.about-texth2{
+color:white;
+font-size:75px;
+text-transform:capitalize;
+margin-bottom:25px;
+}
+.about-texth5{
+color:blue;
+letter-spacing:2px;
+font-size:22px;
+margin-bottom:25px;
+text-transform: capitalize;
+}
+.about-textp{
+    color:white;
+    letter-spacing:1px;
+    font-size:18px;
+    margin-bottom:45px;
+}
+button{
+    background-color: sienna;
+    color:white;
+    text-decoration: dotted;
+    border:2px solid transparent;
+    font-weight:bold;
+    padding:13px 30px;
+    border-radius:30px;
+}
+/*our services section */
+.service{
+    background:#191919;
+    width:100%;
+    padding:100px;
+}
+.title h2{
+color:white;
+font-size:75px;
+width:1130px;
+margin:3px auto;
+text-align:center;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+}
+.card{
+    height:365px;
+    width:335px;
+    padding:20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin:15px;
+    text-align: center;
+}
+.card i{
+    font-size:50px;
+    display:block;
+    text-align: center;
+    text-align: center;
+    margin:25px 0px;
+    color:sienna;
+}
+h5{
+    color:white;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.desc p{
+    color:white;
+    font: size 16px;
+    line-height:27px;
+    margin-bottom:25px;
+}
+.card .button{
+    background-color: aqua;
+    color:white;
+    text-decoration: none;
+    border:1px solid transparent;
+    font-weight: bold;
+    padding:9px 22px;
+    border-radius: 30px;
+}
+/*contact*/
+.contact-me{
+width:100%;
+height:200px;
+background-color: #191919;
+margin:0 auto;
+text-align: center;
+}
+.contact-me p{
+color:white;
+font-size: 30px;
+font-weight:bold;
+margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: blue;
+    color:red;
+    text-decoration:none;
+    border:2px solid transparent;
+    font-weight:bold;
+    padding:13px 30px;
+    border-radius:30px;
+}
+/*contact ends*/
+
+/*footer*/
+footer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    width:100%;
+    height:400px;
+    background: #191919;
+}
+footer p:first-child{
+font-size: 17px;
+width:500px;
+text-align:center;
+line-height:25px;
+}
+.social{
+    display:flex;
+    justify-content:center;
+}
+.social a{
+    width:45px;
+    height:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    margin:22px 10px;
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    background-color:blue
+}
+@media(max-width:576px) {
+    .nav ul li{
+        display:none;
+    }
+}
+.content{
+    color:white;
+}
+h1{
+  font-size: 30px;  
+}
+.newsletter form input:first-child{
+    display:inline-block;
+    width:40%;
+    padding:14px 130px 14px 15px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 30px;
+}
+    .newsletter form input:last-child{
+        background: blue;
+        position: absolute;
+        display: inline inline-block;
+        outline: none;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 30px;
+        color: white;
+        top:6px;
+        right:90px;
+    }
+    .about.main img{
+        height:auto;
+        width:430px;
+    }
+    .about text{
+        color:red;
+        width:100%;
+        padding:1px 21px;
+        }
+
+    about-texth2{
+        color:white;
+        font-size:55px;
+        text-transform:capitalize;
+        margin-bottom:25px;
+        }
+        .about-texth5{
+        color:blue;
+        letter-spacing:2px;
+        font-size:22px;
+        margin-bottom:25px;
+        text-transform: capitalize;
+        }
+        .about-textp{
+           color:white;
+            letter-spacing:1px;
+            font-size:18px;
+            margin-bottom:45px;
+        }
+        .main{
+            display:block;
+            width:100px;
+            max-width: 95%;
+            margin:0 auto;
+        }
+        .title h2{
+            color:white;
+            font-size:42px;
+            width:100px;
+            margin:30px auto;
+            text-align:center;
+            }
+            .box{
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height:150vh;
+               min-height:400px;
+            }
+            .main image{
+                margin-left:70px 50px;
+            }
+           .footer p{
+                font: size 100px;
+                text-size-adjust: 150px;
+            }
+            @media(max-width:576px){
+
+            }
+            @media(max-width:850px){
+                nav ul{
+                    display:none
+                }
+            }

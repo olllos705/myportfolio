@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../webpage"
+		},
+		{
+			"path": "../digital marketing"
+		},
+		{
+			"path": "../document"
+		},
+		{
+			"path": "../card"
+		},
+		{
+			"path": "../ui"
+		},
+		{
+			"path": "../../bootstrap"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css"
+	}
+}
